@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="MainFunction przechowuje obiekty klasy Function">
+    <Position X="13.238" Y="6.668" Height="0.448" Width="1.7" />
+  </Comment>
+  <Comment CommentText="przechowuje kopie klasy Function">
+    <Position X="13.193" Y="4.843" Height="0.382" Width="1.7" />
+  </Comment>
+  <Class Name="Interpreter.Field" Collapsed="true">
+    <Position X="5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAEAAAAAAAABAJAAAAAAAAAEAAACAABAAAA=</HashCode>
+      <FileName>DynamicField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interpreter.FunctionField" Collapsed="true">
+    <Position X="1.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>DynamicField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interpreter.VariableField" Collapsed="true">
+    <Position X="3.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAA=</HashCode>
+      <FileName>DynamicField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interpreter.BracketField" Collapsed="true">
+    <Position X="5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DynamicField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interpreter.OperatorPior1" Collapsed="true">
+    <Position X="6.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAEAAAAAAgAAAIAAABAAAAAAAAAgCAAAAAA=</HashCode>
+      <FileName>DynamicField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interpreter.OperatorPior2" Collapsed="true">
+    <Position X="8.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAACAAAgAAAIAAAAAAAgAAAAAgAAAAAAA=</HashCode>
+      <FileName>DynamicField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interpreter.DynamicField" Collapsed="true">
+    <Position X="6.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAACAAAAAEAAAAAABAAAAAIAACABAAAA=</HashCode>
+      <FileName>DynamicField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interpreter.Form1" Collapsed="true">
+    <Position X="17.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgAAEAEAACwAAJEBEADFABgCAEg5gAAAEXwYAAAAAQg=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interpreter.Function" Collapsed="true">
+    <Position X="14.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAgAEAAAAAAAAAAAAACAIABACCAAQAAAAAABAAAQAA=</HashCode>
+      <FileName>Function.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interpreter.InterException" Collapsed="true">
+    <Position X="17.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InterException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interpreter.InterFunctions" Collapsed="true">
+    <Position X="14.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAgAAAAgAEAAAAAAAAAAQAAAAIAABAAAQ=</HashCode>
+      <FileName>InterFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interpreter.ForLoop" Collapsed="true">
+    <Position X="14.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAIAAAAAABAAgAAAAAAAAAAAAAAAAAAEAAABAAAQ=</HashCode>
+      <FileName>InterFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interpreter.IfStatement" Collapsed="true">
+    <Position X="17.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAwCAAAAAAAAAAAACAAAAAAAAAABAAAQ=</HashCode>
+      <FileName>InterFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interpreter.ElifStatement" Collapsed="true">
+    <Position X="19.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InterFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interpreter.ElseStatemenmt" Collapsed="true">
+    <Position X="12" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>InterFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interpreter.Method" Collapsed="true">
+    <Position X="11.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAABAAAQ=</HashCode>
+      <FileName>InterFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interpreter.VariableCreate" Collapsed="true">
+    <Position X="12.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAIAAAAAAAgAAAAAAAAQAAAAEAAAAAAAAAABABAQ=</HashCode>
+      <FileName>InterFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interpreter.VariableOperation" Collapsed="true">
+    <Position X="16.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAQAAAAAAAAAAAAIAAAAAAAEAAAAAAAAAABAAAQ=</HashCode>
+      <FileName>InterFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interpreter.ReturnStatement" Collapsed="true">
+    <Position X="16.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAQ=</HashCode>
+      <FileName>InterFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interpreter.Interpreter" Collapsed="true">
+    <Position X="12.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAoEAAAAAAAAAAgAAAwgAgIAAFAFEAAAEAgACAAAA=</HashCode>
+      <FileName>Interpreter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interpreter.InterStack" Collapsed="true">
+    <Position X="13.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAACAAAAAAQAAAABAAAAAAAgAABAIAA=</HashCode>
+      <FileName>InterStack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interpreter.MainFunction" Collapsed="true">
+    <Position X="13.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAUACAAAAAAAAAACAAAAAAAAAAAAAAABABAGAA=</HashCode>
+      <FileName>MainFunction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interpreter.Program" Collapsed="true">
+    <Position X="17.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interpreter.RuntimeParse" Collapsed="true">
+    <Position X="17.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GgSAgQAAgAAAAAAAAgEABIAAAAACAAQoAIAQAAAAAAI=</HashCode>
+      <FileName>RuntimeParse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interpreter.SystemFunctions" Collapsed="true">
+    <Position X="10.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAIAAAAAAABAAAAAAQAAAQAAAAAAAAg=</HashCode>
+      <FileName>SystemFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interpreter.Validation" Collapsed="true">
+    <Position X="17.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAACQAAhACCAARiBAoEgABEAAECAAEAwBAQAEAAQAA=</HashCode>
+      <FileName>Validation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interpreter.Variable" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAACAAEYCUBAABAACAEASAAAEAAAACECAA=</HashCode>
+      <FileName>Variable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interpreter.Int" Collapsed="true">
+    <Position X="8.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEACAAAABAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Variable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interpreter.String" Collapsed="true">
+    <Position X="1.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAEACAAAABAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Variable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interpreter.Double" Collapsed="true">
+    <Position X="3.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEACAAAABAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Variable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interpreter.Bool" Collapsed="true">
+    <Position X="5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEACAAAABAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Variable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interpreter.LinkedList" Collapsed="true">
+    <Position X="6.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAACAAEACAAAABAAAAAAQAAAAAAAAAAAAI=</HashCode>
+      <FileName>Variable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

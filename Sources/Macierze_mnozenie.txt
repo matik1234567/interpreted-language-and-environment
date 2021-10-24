@@ -1,0 +1,30 @@
+#def alloc(m,n):
+	$temp = ()
+	for(x,0,n):
+		Append(temp,0.0)
+	for(y,0,n):
+		Append(m,temp)
+
+#def print_macierz(ma):
+	for(w,0,Length(ma)):
+		for(c,0,Length(ma(w))):
+			print(ma(w,c), ' ')
+		print('\n')
+	print('\n')
+	
+#def mnozenie(m1,m2):
+	$m=()
+	alloc(m,Length(m1))
+	for(row,0,Length(m1)):
+		for(col,0,Length(m1)):
+			for(in,0,Length(m2)):
+				m(row, col) = m(row, col)+m1(row,in)*m2(in,col)
+	@m
+	
+#main():
+	$m2 = ((2,-1,5),(6,0,4))
+	$m1 = ((0.5,-4),(3,2),(1,1))
+	$macierz = mnozenie(m1,m2)
+	print_macierz(macierz)
+		
+	

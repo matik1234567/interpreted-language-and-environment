@@ -1,0 +1,34 @@
+#def silnia_rekurencyjnie(n, o):
+	if(n<2):
+		@
+	o=o*n
+	silnia_rekurencyjnie(n-1, o)
+
+
+#def silnia_iteracyjnie(n):
+	$t = 1
+	for(x, 1, n+1):
+		t = t*x
+	@t
+
+#def fib(n):
+	$a = 0
+	$b = 1
+	$t = 0
+	for(i, 0, n):
+		t = a+b
+		a = b
+		b = t
+	@a
+	
+#main():
+	$wynik = 1
+	print('silnia liczby 5:','\n')
+	silnia_rekurencyjnie(5, wynik)
+	print(' ','Rekurencyjnie: ',wynik,'\n')
+	$f = silnia_iteracyjnie(5)
+	print(' ','Iteracyjnie: ',f,'\n')
+	print('Wyraz 14 ciagu Fibonacciego:', '\n' )
+	$wy = 1
+	$g = fib(14)
+	print(' ',g,'\n')

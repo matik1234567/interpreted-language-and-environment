@@ -1,0 +1,14 @@
+#def Bubble_sort(list):
+	$len = Length(list)
+	$temp = 0
+	for(i, 0, len-1):
+		for(j, 0, len-i-1):
+			if(list(j) > list(j+1)):
+				temp = list(j)
+				list(j) = list(j+1)
+				list(j+1) = temp
+#main():
+	$tab = (1,2,8,11,-5,4,23,9,0,-2)
+	Bubble_sort(tab)
+	for(x, 0, Length(tab)):
+		print(tab(x), ' ')

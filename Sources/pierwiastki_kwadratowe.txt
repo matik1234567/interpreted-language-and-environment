@@ -1,0 +1,17 @@
+#def funkcja_kwadratowa():
+	$a = input()
+	$b = input()
+	$c = input()
+	$delta = Pow(b,2)-4*a*c
+	if(delta == 0):
+		$x = -b/2*a
+		print('pierwiastki: ',x)
+	elif(delta > 0):
+		delta = Sqrt(delta)
+		$x1 = (-b+delta)/2*a
+		$x2 = (-b-delta)/2*a
+		print('pierwiastki: ',x1,' , ',x2)
+	else:
+		print('Brak rozwiazan')
+#main():
+	funkcja_kwadratowa()

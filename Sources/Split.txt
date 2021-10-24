@@ -1,0 +1,23 @@
+#def Split(str,del):
+	$tab = ()
+	$temp=''
+	for(i,0,Length(str)):
+		if(AtIndex(str,i)==del):
+			Append(tab,temp)
+			temp=''
+		else:
+			temp = temp + AtIndex(str, i)
+	if(temp<>''):
+		Append(tab,temp)
+	@tab
+
+#def print_table(table):
+	for(x,0,Length(table)):
+		print(table(x), '\n')
+	
+#def find_indexes(str,char):
+	$tab = ()
+#main():
+	$st = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'
+	$t = Split(st,',')
+	print_table(t)

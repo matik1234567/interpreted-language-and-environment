@@ -1,0 +1,9 @@
+
+#main():
+	$pi = 3.1416
+	$r = 5
+	$v_kola = 4/3*pi*5*5*5
+	print(v_kola, '\n')
+	$v_kola = 4/3*pi*Pow(5,3)
+	print(v_kola)
+	

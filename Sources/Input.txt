@@ -1,0 +1,10 @@
+
+#main():
+	$array = ()
+	for(x,0,5):
+		$t = input()
+		Append(array, t)
+	
+	for(i,0,Length(array)):
+		print(array(i), ' ')
+	
